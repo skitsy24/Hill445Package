@@ -1,0 +1,15 @@
+---
+title: "Flagstaff Weather phenomena"
+author: "Myles Hill"
+date: "12/4/2024"
+output: html_document
+---
+
+```{r}
+library(Hill445Package)
+library(ggplot2)
+ggplot(Flagstaff_Weather,aes(x=DATE,y=SNOW)) +
+  geom_line()
+```
+
+
